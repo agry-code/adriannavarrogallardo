@@ -1,113 +1,198 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<!-- nombre: Adrian Navarro Gallardo
-curso: 1DAM
-fecha: 06/12/2022
- -->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html class="index" lang="es">
+  <!-- nombre: Adrian Navarro Gallardo
+    curso: 1DAM
+    fecha: 06/12/2022
+-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Índice de Fan Webs</title>
-    <link rel="stylesheet" type="text/css" href="/index.css" />
-<style> 
-html, body{background-color: gray;
-    margin: 0;
-	padding: 0;
-}   
-#caja{
-text-align: right;
-margin: auto;
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css.css" />
+  </head>
 
-}
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#"> Home </a>
 
-@media screen and (orientation:landscape) {
-    .portaFoto {
-        max-width: 1920px;
-        max-height: 1280px;
-    }
-}
-
-@media screen and (orientation:portrait) {
-    .portaFoto {
-        max-width: 800px;
-        max-height: 1200px;
-    }
-}
-</style>
-</head>
-
-<body>
-    
-<div id="caja">
-    <picture class="portaFoto">
-
-        <!-- imágenes GRANDES -->
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./redimensionada/breaking_bad_G_H.avif"
-            type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./redimensionada/breaking_bad_G_H.webp"
-            type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./redimensionada/breaking_bad_G_H.jpg" type="image/jpg">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="./redimensionada/breaking_bad_G_V.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="./redimensionada/breaking_bad_G_V.webp" type="image/webp">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="./redimensionada/breaking_bad_G_V.jpg" type="image/jpg">
-
-        <!-- imágenes MEDIANAS -->
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="./redimensionada/breaking_bad_M_H.avif"
-            type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="./redimensionada/breaking_bad_M_H.webp"
-            type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="./redimensionada/breaking_bad_M_H.jpg" type="image/jpg">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="./redimensionada/breaking_bad_M_V.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="./redimensionada/breaking_bad_M_V.webp"  type="image/webp">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="./redimensionada/breaking_bad_M_V.jpg"  type="image/jpg">
-
-        <!-- imágenes PEQUEÑAS -->
-
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="./redimensionada/breaking_bad_P_H.avif" type="image/avif">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="./redimensionada/breaking_bad_p_h.webp" type="image/webp">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="./redimensionada/breaking_bad_P_H.jpg" type="image/jpg">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="/redimensionada/breaking_bad_P_V.avif" type="image/avif">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="/redimensionada/breaking_bad_P_V.webp"  type="image/webp">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="/redimensionada/breaking_bad_P_V.jpg" type="image/jpg">
-
-        <img class="laFoto" alt="Foto de un Walter" title="Walter Cancer" src="./redimensionada/breaking_bad.jpg" />
-    </picture>
-</div>
-
-    <header>
-        <h1>Índice de Fan Webs</h1>
-    </header>
-    <nav id="nav">
-        <link rel="stylesheet" type="text/css" href="menudespleagable.css" />
-        <ul class="acorh">
-            <li><a href="savewalter.html">Save Walter White, Breaking Bad</a></li>
-                <p>Después de haber logrado el trato con Gus, Walt llega al hospital a conocer a su hija. La llegada de la misma más el tratamiento de Walt provocará muchos gastos en la familia. Skyler decide regresar a trabajar, mientras que Walt Jr. decide montar una página web para recibir donativos. Método por el cual Walt lavará su dinero con ayuda de Saul.
-                    Walt y Jesse vuelven a tener problemas por dinero y el uso de las drogas del segundo. Este enojo lleva a Jesse a seguir consumiendo y liberando sus penas con Jane, quien ha dejado su rehabilitación atrás, pese a la furia de su padre. Ella aconseja a Jesse chantajear a Walt para obtener su dinero y juntos puedan ser libres.
-                  </p>
-              <ul>
-            <li><a href="#">Seguimos trabajando</a>
+          <a class="navbar-item" href="./savewalter.html">
+            Save Walter White
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main class="el-cuerpo">
+      <header>
+        <h1 class="title">Índice de Fan Webs</h1>
+        <nav id="nav">
+          <link rel="stylesheet" type="text/css" href="menudespleagable.css" />
+          <ul class="acorh">
+            <li>
+              <a href="savewalter.html">Save Walter White, Breaking Bad</a>
+            </li>
+          </ul>
+          <p>
+            Después de haber logrado el trato con Gus, Walt llega al hospital a
+            conocer a su hija. La llegada de la misma más el tratamiento de Walt
+            provocará muchos gastos en la familia. Skyler decide regresar a
+            trabajar, mientras que Walt Jr. decide montar una página web para
+            recibir donativos. Método por el cual Walt lavará su dinero con
+            ayuda de Saul. Walt y Jesse vuelven a tener problemas por dinero y
+            el uso de las drogas del segundo. Este enojo lleva a Jesse a seguir
+            consumiendo y liberando sus penas con Jane, quien ha dejado su
+            rehabilitación atrás, pese a la furia de su padre. Ella aconseja a
+            Jesse chantajear a Walt para obtener su dinero y juntos puedan ser
+            libres.
+          </p>
+          <input id="activar" name="activar" type="checkbox" />
+          <label class="inputlabel" for="activar"
+            >Clic para ver el link de la escena</label
+          >
+          <div class="desplegable">
+            <a href="https://youtu.be/BTsAUOauZAk" target="_blank"
+              >Capitulo 12, Temporada 2</a
+            >
+          </div>
+          <ul class="acorh">
+            <li>
+              <a href="#">Seguimos trabajando</a>
               <ul>
                 <li><a href="">En proceso...</a></li>
                 <li><a href="">En proceso...</a></li>
                 <li><a href="">En proceso...</a></li>
               </ul>
             </li>
-             
-    </nav>
-    <main>
+          </ul>
+        </nav>
         <article>
-            <h2>Proposito de la página</h2>
-            <p>La ídea de esta página principal es hacer un índice de fanpages de distintas series y peliculas.
-                 Por ahora estoy trabajando en ella y mi primer proyecto es un página de Breaking Bad junto a un proposito solidario para ayudar a las personas afectadas por cancer. 
-                 Con la posibilidad de donar a una Organización contra el cancer a través de un link.
-            </p>
+          <h2>Proposito de la página</h2>
+          <p>
+            La ídea de esta página principal es hacer un índice de fanpages de
+            distintas series y peliculas. Por ahora estoy trabajando en ella y
+            mi primer proyecto es un página de Breaking Bad junto a un proposito
+            solidario para ayudar a las personas afectadas por cancer. Con la
+            posibilidad de donar a una Organización contra el cancer a través de
+            un link.
+          </p>
         </article>
+      </header>
+      <div id="caja">
+        <picture class="portaFoto">
+          <!-- imágenes GRANDES -->
+          <source
+            media="(orientation: landscape) and (min-width: 1201px)"
+            srcset="./redimensionada/breaking_bad_G_H.avif"
+            type="image/avif"
+          />
+          <source
+            media="(orientation: landscape) and (min-width: 1201px)"
+            srcset="./redimensionada/breaking_bad_G_H.webp"
+            type="image/webp"
+          />
+          <source
+            media="(orientation: landscape) and (min-width: 1201px)"
+            srcset="./redimensionada/breaking_bad_G_H.jpg"
+            type="image/jpg"
+          />
+          <source
+            media="(orientation: portrait) and (min-width:601px)"
+            srcset="./redimensionada/breaking_bad_G_V.avif"
+            type="image/avif"
+          />
+          <source
+            media="(orientation: portrait) and (min-width:601px)"
+            srcset="./redimensionada/breaking_bad_G_V.webp"
+            type="image/webp"
+          />
+          <source
+            media="(orientation: portrait) and (min-width:601px)"
+            srcset="./redimensionada/breaking_bad_G_V.jpg"
+            type="image/jpg"
+          />
+
+          <!-- imágenes MEDIANAS -->
+          <source
+            media="(orientation: landscape) and (min-width: 901px)"
+            srcset="./redimensionada/breaking_bad_M_H.avif"
+            type="image/avif"
+          />
+          <source
+            media="(orientation: landscape) and (min-width: 901px)"
+            srcset="./redimensionada/breaking_bad_M_H.webp"
+            type="image/webp"
+          />
+          <source
+            media="(orientation: landscape) and (min-width: 901px)"
+            srcset="./redimensionada/breaking_bad_M_H.jpg"
+            type="image/jpg"
+          />
+          <source
+            media="(orientation: portrait) and (min-width:401px)"
+            srcset="./redimensionada/breaking_bad_M_V.avif"
+            type="image/avif"
+          />
+          <source
+            media="(orientation: portrait) and (min-width:401px)"
+            srcset="./redimensionada/breaking_bad_M_V.webp"
+            type="image/webp"
+          />
+          <source
+            media="(orientation: portrait) and (min-width:401px)"
+            srcset="./redimensionada/breaking_bad_M_V.jpg"
+            type="image/jpg"
+          />
+
+          <!-- imágenes PEQUEÑAS -->
+
+          <source
+            media="(orientation: landscape) and (max-width: 900px)"
+            srcset="./redimensionada/breaking_bad_P_H.avif"
+            type="image/avif"
+          />
+          <source
+            media="(orientation: landscape) and (max-width: 900px)"
+            srcset="./redimensionada/breaking_bad_p_h.webp"
+            type="image/webp"
+          />
+          <source
+            media="(orientation: landscape) and (max-width: 900px)"
+            srcset="./redimensionada/breaking_bad_P_H.jpg"
+            type="image/jpg"
+          />
+          <source
+            media="(orientation: portrait) and (max-width: 400px)"
+            srcset="./redimensionada/breaking_bad_P_V.avif"
+            type="image/avif"
+          />
+          <source
+            media="(orientation: portrait) and (max-width: 400px)"
+            srcset="./redimensionada/breaking_bad_P_V.webp"
+            type="image/webp"
+          />
+          <source
+            media="(orientation: portrait) and (max-width: 400px)"
+            srcset="./redimensionada/breaking_bad_P_V.jpg"
+            type="image/jpg"
+          />
+
+          <img
+            class="la-foto"
+            alt="Foto de un Walter"
+            title="Walter Cancer"
+            src="./redimensionada/breaking_bad.jpg"
+          />
+        </picture>
+      </div>
     </main>
     <footer>
-        <p>©Copyright 2022 de Adrian Navarro Gallardo. Todos los derechos.</p>
+      <p>©Copyright 2022 de Adrian Navarro Gallardo. Todos los derechos.</p>
     </footer>
-</body>
-
+  </body>
 </html>

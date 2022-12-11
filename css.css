@@ -1,0 +1,182 @@
+/* fondo de pantalla save walter white*/
+/*TODO REVISAR CODIGO PARA ELIMINAR COSAS QUE NO EN EL HTML */
+/* fondo pantalla index */
+.index {
+  background: gray;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.indexWW {
+  background: #1ba11a;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  margin: 0;
+  padding: 0;
+}
+.el-cuerpo {
+  display: flex;
+}
+.la-foto {
+  max-width: 740px;
+}
+@media screen and (orientation: portrait) {
+  .el-cuerpo {
+    display: block;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .la-foto {
+    max-width: 540px;
+  }
+}
+/* menu desplegable  */
+ul.acorh,
+ul.acorh * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul.acorh {
+  margin: 10px auto;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  font-size: 18px;
+}
+ul.acorh li {
+  list-style: none;
+}
+ul.acorh li a {
+  display: block;
+  padding: 10px 10px 10px 20px;
+  background: #333;
+  color: #eee;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #666;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+ul.acorh li ul {
+  max-height: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  transition: 0.3s all ease-in;
+}
+ul.acorh li li a {
+  padding: 10px 10px 10px 40px;
+  background: #999;
+  color: #000;
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+  border-bottom: 0;
+}
+ul.acorh li:hover ul {
+  max-height: 300px;
+  transition: 0.3s all ease-in;
+}
+ul.acorh li a:hover {
+  background: #666;
+  color: #fff;
+}
+/* escena */
+#activar ~ .desplegable {
+  display: none;
+  overflow: hidden;
+}
+#activar:checked ~ .desplegable {
+  display: block;
+}
+a:active {
+  position: relative;
+  top: 5px;
+}
+/*save walter white*/
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+ul li {
+  display: inline;
+}
+img {
+  border: none;
+}
+
+#walter-container {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+#walter-container h1 {
+  color: #fff;
+  font-family: times, helvetic, sans-serif;
+  font-size: 112px;
+  margin: 0;
+  padding-top: 12px;
+}
+#walter-container h3 {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+}
+#walter-container p {
+  font-weight: bold;
+  margin: 1em 50px;
+  line-height: 1.2em;
+  text-align: left;
+}
+
+#walter-container p.middle {
+  text-align: center;
+}
+#walter-container ul#second_row {
+  margin: 42px 0;
+}
+#walter-container ul#second_row li {
+  margin: 0px 18px;
+}
+#walter-container ul#second_row li img {
+  vertical-align: top;
+}
+#walter-container ul#fourth_row li {
+  margin: 40px 95px;
+}
+#walter-container #donate-container {
+  margin: 40px 0;
+}
+#walter-container #donations-so-far {
+  background: #000;
+  width: 840px;
+  height: 185px;
+  margin: 0 auto;
+  padding: 8px;
+}
+#donations-so-far p {
+  margin: 12px 0;
+}
+
+.white {
+  color: #fff;
+}
+.yellow {
+  color: #fff54f;
+}
+.dark-yellow {
+  color: #ffe107;
+}
+.small-copy {
+  font-size: 21px;
+}
+.medium-copy {
+  font-size: 25px;
+}
+.large-copy {
+  font-size: 42px;
+}

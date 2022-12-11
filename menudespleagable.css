@@ -48,6 +48,7 @@ ul.acorh li:hover ul {
 max-height: 300px;
 transition: .3s all ease-in;
 }
+/* Changing the background color of the link when you hover over it. */
 ul.acorh li a:hover {
 background: #666;
 color: #fff;

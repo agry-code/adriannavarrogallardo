@@ -1,4 +1,3 @@
-/* fondo de pantalla save walter white*/
 /*TODO REVISAR CODIGO PARA ELIMINAR COSAS QUE NO EN EL HTML */
 /* fondo pantalla index */
 .index {
@@ -10,7 +9,7 @@
 
 .indexWW {
   background: #1ba11a;
-  font-family: Comic Sans, Comic Sans MS, cursive;
+  font-family: "Comic Sans", "Comic Sans", cursive;
   margin: 0;
   padding: 0;
 }
@@ -108,7 +107,7 @@ ul li {
 img {
   border: none;
 }
-
+/* fondo de pantalla save walter white*/
 #walter-container {
   padding: 20px;
   text-align: center;

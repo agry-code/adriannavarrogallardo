@@ -10,7 +10,6 @@
 .indexWW {
   background: #1ba11a;
   font-family: "Comic Sans", "Comic Sans", cursive;
-  src: url("comic-sans-ms/comici.ttf");
   margin: 0;
   padding: 0;
 }
@@ -179,4 +178,7 @@ img {
 }
 .large-copy {
   font-size: 42px;
+}
+.navbar-menu {
+  display: table-row;
 }

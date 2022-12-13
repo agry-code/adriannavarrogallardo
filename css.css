@@ -1,4 +1,5 @@
-/*TODO REVISAR CODIGO PARA ELIMINAR COSAS QUE NO EN EL HTML */
+/*ADRIAN NAVARRO GALLARDO
+06-12-2022*/
 /* fondo pantalla index */
 .index {
   background: gray;
@@ -7,12 +8,6 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.indexWW {
-  background: #1ba11a;
-  font-family: "Comic Sans", "Comic Sans", cursive;
-  margin: 0;
-  padding: 0;
-}
 .el-cuerpo {
   display: flex;
 }
@@ -119,6 +114,13 @@ img {
   font-size: 112px;
   margin: 0;
   padding-top: 12px;
+}
+
+.indexWW {
+  background: #1ba11a;
+  font-family: "Comic Sans", "Comic Sans", cursive;
+  margin: 0;
+  padding: 0;
 }
 #walter-container h3 {
   font-size: 40px;

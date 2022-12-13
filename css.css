@@ -7,10 +7,10 @@
   padding: 0;
   font-family: "Times New Roman", Times, serif;
 }
-
 .indexWW {
   background: #1ba11a;
   font-family: "Comic Sans", "Comic Sans", cursive;
+  src: url("comic-sans-ms/comici.ttf");
   margin: 0;
   padding: 0;
 }
